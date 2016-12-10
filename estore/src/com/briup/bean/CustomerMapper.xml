@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.bean.CustomerMapper">
+	<select id="selectCustomerByName" 
+	parameterType="string" resultType="Customer">
+		select * from customer
+		where name=#{name}
+	</select>
+	<insert id="insertCustomer" parameterType="Customer">
+		<selectKey keyColumn="id" keyProperty="id" order="BEFORE" resultType="int">
+			select customer_seq.nextval from dual
+		</selectKey>
+		insert into customer values(#{id},#{name},#{password},#{zip},#{address},#{telephone},#{email})
+	</insert>
+</mapper>

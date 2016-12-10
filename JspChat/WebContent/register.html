@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>注册页面</title>
+<style type="text/css">
+body{
+        font-family: 'Lucida Grande','Trebuchet MS','Hiragino Sans GB','Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
+        color: #000;
+    }
+    .title{
+        font-size: 60px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .login{
+     	margin-top: 10px;
+        padding: 2px 15px;
+        font-size: 15px;
+        color:rgb(0,100,233);
+        -webkit-transition: background 250ms ease-in, color 250ms ease-in;
+        border-radius: 6px;
+        text-decoration: none;
+        margin:0 auto;
+    }
+    .login:hover{
+        color: #fff;
+        background:#BBD631;
+    }
+</style>
+<script language="javascript">
+function on_submit()
+{
+	if(form1.number.value.length!=11)
+	{
+	 alert("手机长度11位！");
+	 form1.number.focus();
+	  return false;
+	
+	}
+	if(form1.password.value.length<6)
+		{
+		 alert("密码长度大于6位！");
+		 form1.password.focus();
+		  return false;
+		
+		}
+	
+	if (form1.password.value != form1.pass2.value)
+		 {
+		 alert("密码与确认密码不同");
+		 form1.password.focus();
+		  return false;
+		 }
+	
+	}
+
+</script>
+</head>
+<body background="images/register.jpg">
+<div class="title">欢迎注册</div><br>
+<div align="center">
+<table>
+<tr>
+    <td align="center" valign="middle">
+    <table>
+     <form action="register.jsp" method="post" name="form1" onsubmit="return on_submit()">
+     <tr><td align="center" valign="middle">
+     <span>账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：</span><input type="text" name="user" required="required"><br><br>
+     
+     <span>电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</span><input type="number" name="number" required="required" ><br><br>
+     <span>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</span><input type="password" required="required" name="password"><br><br>
+     <span>确认密码：</span><input type="password"  required="required" name="pass2"><br><br>
+ 	<input type="submit" value="提交" class="login">&nbsp;&nbsp;&nbsp;
+ 	<input type="reset" value="重置" class="login">
+     </td></tr>
+     </form>
+    </table></td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,49 @@
+A:link,A:active{TEXT-DECORATION:none ;Color:#000000}A:hover{TEXT-DECORATION: underline;Color:#858BAA}A:visited{TEXT-DECORATION:none ;Color:#8A8A8A}
+BODY{FONT-SIZE: 12px;COLOR: #000000;FONT-FAMILY:  宋体;
+scrollbar-face-color: #DEE3E7;scrollbar-highlight-color: #FFFFFF;scrollbar-shadow-color: #DEE3E7;scrollbar-3dlight-color: #D1D7DC;scrollbar-arrow-color:  #006699;scrollbar-track-color: #EFEFEF;scrollbar-darkshadow-color: #98AAB1;}
+font{line-height : normal ;}
+TD{font-family: 宋体;font-size: 12px;line-height : 15px ;}
+th{background-image: url('images/bg2.gif');background-color: #858BAA;color: white;font-size: 12px;font-weight:bold}
+td.TableTitle2{background-color: #E4F3FF;}
+td.TableBody1{background-color: #FFFFFF;line-height : normal ;}
+td.TableBody2{background-color: #E4F3FF;line-height : normal ;}
+td.TopDarkNav{background-image: url(skins/default/css/default/topbg.gif);}
+td.TopLighNav{background-image: url('images/bottombg.gif');}
+td.TopLighNav1{background-image: url('images/tabs_m_tile.gif');}
+td.TopLighNav2{background-color:#FFFFFF}
+.tableBorder1{width:97%;border: 1px; background-color: #AFB2C4;}
+.tableBorder2{width:97%;border: 1px #DEDEDE solid; background-color: #EFEFEF;}
+#TableTitleLink A:link, #TableTitleLink A:visited, #TableTitleLink A:active {COLOR: #FFFFFF;	TEXT-DECORATION: none;}#TableTitleLink A:hover {COLOR: #FFFFFF;	TEXT-DECORATION: underline;}
+input,select,Textarea,option{font-family:Tahoma,Verdana,"宋体"; font-size: 12px; line-height: 15px;COLOR: #000000;}
+.normalTextSmall {     font-size : 11px;    color : #000000;     font-family: Verdana, Arial, Helvetica, sans-serif;}
+.menuskin {
+	BORDER: 1px solid #666666; VISIBILITY: hidden; POSITION: absolute;
+	BACKGROUND-COLOR:#EFEFEF;
+	background-image:url('images/dvmenubg3.gif');
+	background-repeat : repeat-y; font-style:normal; font-variant:normal; font-weight:normal; font-size:12px; font-family:Verdana
+	}
+.menuskin A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 25px; COLOR: black; TEXT-DECORATION: none; behavior:url(inc/noline.htc);
+	}
+#mouseoverstyle {
+	BACKGROUND-COLOR: #C9D5E7; margin:2px; padding:0px; border:#597DB5 1px solid;
+	}
+#mouseoverstyle A {
+	COLOR: black
+}
+.menuitems{
+	margin:2px;padding:1px;word-break:keep-all;
+}
+
+a.navlink:link {color: #000000; text-decoration:none}
+a.navlink:visited {color: #000000; text-decoration:none }
+a.navlink:hover {color: #003399; text-decoration:none }
+.BrightClass{background-color: #D7D7D7; }
+/*
+编辑器特效CSS样式
+*/
+div.quote{margin:5px 20px;border:1px solid #CCCCCC;padding:5px;background:#F3F3F3 ;line-height : normal ;
+}
+div.HtmlCode{margin:5px 20px;border:1px solid #CCCCCC;padding:5px; background:#FDFDDF ;
+font-size:14px;font-family:Tahoma;font-style : oblique;line-height : normal ;font-weight:bold;
+}
