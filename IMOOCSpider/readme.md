@@ -32,4 +32,4 @@ IMOOCSpider项目已上传到我的github上----[传送门](https://github.com/H
 
 #### 项目运行结果
 
-![结果.png](./woss/src/images/result.png)
+![结果.png](./images/result.png)
