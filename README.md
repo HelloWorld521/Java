@@ -6,15 +6,15 @@
 
 ## Java项目实例
 
-* [Woss2.0  电信采集系统](./woss/)
+* [Woss2.0 电信采集系统](./woss/)
 
-* [tomcatServlet3.0  Web服务器](./tomcatServer3.0/)
+* [tomcatServlet3.0 Web 服务器](./tomcatServer3.0/)
 
-* [JspChat  jsp聊天室](./JspChat/)
+* [JspChat jsp 聊天室](./JspChat/)
 
-* [eStore   图书管理系统](./estore/)
+* [eStore 图书管理系统](./estore/)
 
-* [checkcode Java制作验证码](./checkcode/)
+* [checkcode Java 制作验证码](./checkcode/)
 
 * [IMOOCSpider 简易网络爬虫](./IMOOCSpider/)
 
