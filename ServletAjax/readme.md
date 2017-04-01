@@ -31,7 +31,7 @@ readyState 五种状态：
 2	| HEADERS_RECEIVED (已获取响应头) | send() 方法已经被调用，并且头部和状态已经可获得。
 3 | LOADING (正在下载响应体) |	下载中，responseText 属性已经包含部分数据。
 4	| DONE (请求完成)  |	下载操作已完成。
----
+
 
 
 ### 项目核心源码
