@@ -1,8 +1,6 @@
+# Java 实现 Tomcat 服务器
 ## 介绍
 本项目模仿tomcat，封装request和response，帮助理解tomcat源码。
-
-
-
 
 ## 需要知识
 
