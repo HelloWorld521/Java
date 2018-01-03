@@ -6,6 +6,8 @@
 
 ## Java项目实例
 
+* [秒杀业务](./seckill/)
+
 * [Woss2.0 电信采集系统](./woss/)
 
 * [tomcatServlet3.0 Web 服务器](./tomcatServer3.0/)
