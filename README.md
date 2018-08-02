@@ -37,11 +37,11 @@ Below here are some of my java project exercise codes, I would like to share it 
 
 * [SECKILL](./seckill/)
 
-* [Woss2.0 (./woss/)
+* [Woss2.0 ](./woss/)
 
 * [tomcatServlet3.0 Web Server](./tomcatServer3.0/)
 
-* [ServletAjax (./ServletAjax/)
+* [ServletAjax ](./ServletAjax/)
 
 * [JspChat jsp Chatroom](./JspChat/)
 
