@@ -3,7 +3,7 @@
 ## 项目介绍
 
 本项目是个人的一些java项目练习源码，分享给大家，希望可以和大家一起进步！  
-感谢 @Chowz 提供的[英文翻译](./README_EN.md)
+感谢 @Chowz 提供的[English](./README_EN.md)
 
 ## Java项目实例
 
