@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springboot.demo.sys.mapper.SysMenuMapper">
+
+    <select id="findUserPermissions" resultType="com.springboot.demo.sys.entity.SysMenu">
+    select m.perms from sys_role r
+        left join sys_user_role ur on(r.role_id = ur.role_id)
+        left join sys_user u on(u.user_id = ur.user_id)
+        left join sys_role_menu rm on(rm.role_id = r.role_id)
+        left join sys_menu m on(m.menu_id = rm.menu_id )
+        where u.username = #{userName} and m.perms is not null and m.perms &lt;&gt; ''
+    </select>
+
+</mapper>
