@@ -37,7 +37,7 @@ public class Server {
 			e.printStackTrace();
 		}
 	}
-	public void recive(){
+	public void receive(){
 		try {
 			Socket client = server.accept();
 			ServerThread thread = new ServerThread(client);
@@ -60,7 +60,7 @@ public class Server {
 		//创建服务器
 		server2.init();
 		while(true){
-			server2.recive();
+			server2.receive();
 		}
 	}
 
