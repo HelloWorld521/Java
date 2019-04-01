@@ -25,8 +25,7 @@
 
 * [IMOOCSpider 简易网络爬虫](./IMOOCSpider/)
 
+* [SpringBoot-Shiro](./springboot-shiro/)
+
 ## 最后  
 如果帮助到你，请点击右上角 "star"，谢谢！
-
-## 感谢
-感谢 @Chowz 提供的[英文翻译](./README_EN.md)
