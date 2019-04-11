@@ -3,10 +3,9 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     schema: classpath:db/schema-mysql.sql
     data: classpath:db/data-mysql.sql
-
-    url: jdbc:mysql://localhost:3306/shiro_demo?useUnicode=true&useSSL=false&characterEncoding=utf8
-    username: test
-    password: 123456
+    url: jdbc:mysql://119.23.236.26:3306/shiro_demo?useUnicode=true&useSSL=false&characterEncoding=utf8
+    username: honey
+    password: Honey521.
   thymeleaf:
     cache: false
 

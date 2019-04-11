@@ -5,7 +5,6 @@ springboot + shiro + mybatis-plus 集成项目， 使用 mybatis-plus 生成 ent
 ## 需要知识
 
 * springboot
-* java多线程和网络编程
 
 ## 源码
 见本项目
@@ -15,4 +14,5 @@ springboot + shiro + mybatis-plus 集成项目， 使用 mybatis-plus 生成 ent
 Please feel free to contact us with any questions you may have.
 
 ## 参考
-https://mrbird.cc/tags/Shiro/
+[shiro 参考](https://mrbird.cc/tags/Shiro/)  
+[mybatis-plus 参考官网](https://mp.baomidou.com/)
