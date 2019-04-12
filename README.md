@@ -8,6 +8,8 @@ Below here are some of my java project exercise codes, I would like to share it 
 
 ## Java Projects
 
+* [swagger2-boot-starter](https://github.com/HelloWorld521/swagger2-boot-starter)
+
 * [SpringBoot-Shiro](./springboot-shiro/)
 
 * [SECKILL](./seckill/)

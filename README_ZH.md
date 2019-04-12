@@ -9,6 +9,8 @@
 
 ## Java项目实例
 
+* [swagger2-boot-starter](https://github.com/HelloWorld521/swagger2-boot-starter)
+
 * [SpringBoot-Shiro](./springboot-shiro/)
 
 * [秒杀业务](./seckill/)
