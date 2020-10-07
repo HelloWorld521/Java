@@ -1,0 +1,54 @@
+
+import java.util.*;
+
+public class countboardpathwithDP {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		
+		int[] strg=new int[n];
+	
+//		System.out.println(cbpWdp(n, 0, strg));
+//		System.out.println();
+		cbpIS(n, 0);
+		
+
+	}
+
+	public static int cbpWdp(int end, int curr, int[] strg) {
+		if (curr == end) {
+			return 1;
+		}
+		if (curr > end) {
+			return 0;
+		}
+		if(strg[curr]!=0) {
+			return strg[curr];
+		}
+		int count =0;
+		for(int dice=1;dice<=6;dice++) {
+			count=count+cbpWdp(end, curr+dice, strg);
+			strg[curr]=count;
+		}
+		return count;
+	}
+	
+	
+	public static void cbpIS(int end,int curr) {
+		int[] strg=new int[end+1];
+		strg[end]=1;
+		for(int i=end-1;i>=0;i--) {
+			for(int dice=1;dice<=6&&dice+i<strg.length;dice++) {
+				strg[i]+=strg[dice+i];
+			}
+			
+		}
+		
+		for(int i=0;i<strg.length;i++) {
+		System.out.println(strg[i]);
+		}
+		
+	}
+}
