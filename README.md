@@ -1,3 +1,5 @@
+#This is a java file
+
 # Java
 
 ##### [中文](README_ZH.md)
