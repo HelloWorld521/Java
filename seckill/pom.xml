@@ -37,7 +37,7 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
-      <version>1.1.1</version>
+      <version>1.2.0</version>
     </dependency>
     <!-- 实现 slf4j 接口并且整合 -->
     <dependency>
