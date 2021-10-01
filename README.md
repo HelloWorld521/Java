@@ -4,7 +4,8 @@
 
 ## Project Descriptions
 
-Below here are some of my java project exercise codes, I would like to share it with everyone, hope that we are able to improve with everyone!
+Below is some of my Java project practice code, I want to share it with everyone, hope we are able to improve with everyone!
+
 
 ## Java Projects
 
@@ -28,6 +29,6 @@ Below here are some of my java project exercise codes, I would like to share it 
 
 * [IMOOCSpider easy internet spider](./IMOOCSpider/)
 
-## Last
+## At the end
+If any of the above projects are able to help you, please click the "star" in the top right. Thanks!
 
-If any of the projects above is able to help you out, please do click on "Star" on top right-hand-site. Thank you!
