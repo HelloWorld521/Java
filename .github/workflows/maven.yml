@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -24,3 +24,16 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+      
+  Install-nodejs:
+      
+         runs-on: ubuntu-latest
+         steps:
+         - name: Use Node.js ${{ matrix.node-version }}
+           uses: actions/setup-node@v3
+           with:
+             node-version: ${{ matrix.node-version }}
+             cache: 'npm'
+        
+      
+      
