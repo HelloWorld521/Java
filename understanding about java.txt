@@ -1,0 +1,110 @@
+First Java Program | Hello World Example
+Software Requirements
+Creating Hello Java Example
+Resolving javac is not recognized
+In this section, we will learn how to write the simple program of Java. We can write a simple hello Java program easily after installing the JDK.
+
+To create a simple Java program, you need to create a class that contains the main method. Let's understand the requirement first.
+
+The requirement for Java Hello World Example
+For executing any Java program, the following software or application must be properly installed.
+
+Install the JDK if you don't have installed it, download the JDK and install it.
+Set path of the jdk/bin directory. http://www.javatpoint.com/how-to-set-path-in-java
+Create the Java program
+Compile and run the Java program
+Creating Hello World Example
+Let's create the hello java program:
+
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
+}  
+
+Save the above file as Simple.java.
+
+To compile:
+javac Simple.java
+To execute:
+java Simple
+Output:
+
+Hello Java
+Compilation Flow:
+
+When we compile Java program using javac tool, the Java compiler converts the source code into byte code.
+
+Java How to Compile
+Parameters used in First Java Program
+Let's see what is the meaning of class, public, static, void, main, String[], System.out.println().
+
+class keyword is used to declare a class in Java.
+public keyword is an access modifier that represents visibility. It means it is visible to all.
+static is a keyword. If we declare any method as static, it is known as the static method. The core advantage of the static method is that there is no need to create an object to invoke the static method. The main() method is executed by the JVM, so it doesn't require creating an object to invoke the main() method. So, it saves memory.
+void is the return type of the method. It means it doesn't return any value.
+main represents the starting point of the program.
+String[] args or String args[] is used for command line argument. We will discuss it in coming section.
+System.out.println() is used to print statement. Here, System is a class, out is an object of the PrintStream class, println() is a method of the PrintStream class. We will discuss the internal working of System.out.println() statement in the coming section.
+
+
+To write the simple program, you need to open notepad by start menu -> All Programs -> Accessories -> Notepad and write a simple program as we have shownbelow:
+
+The first program of java
+As displayed in the above diagram, write the simple program of Java in notepad and saved it as Simple.java. In order to compile and run the above program, you need to open the command prompt by start menu -> All Programs -> Accessories -> command prompt. When we have done with all the steps properly, it shows the following output:
+
+how to compile and run a simple program of java
+To compile and run the above program, go to your current directory first; my current directory is c:\new. Write here:
+
+To compile:
+javac Simple.java
+To execute:
+java Simple
+In how many ways we can write a Java program?
+There are many ways to write a Java program. The modifications that can be done in a Java program are given below:
+
+1) By changing the sequence of the modifiers, method prototype is not changed in Java.
+
+Let's see the simple code of the main method.
+
+static public void main(String args[])  
+2) The subscript notation in the Java array can be used after type, before the variable or after the variable.
+
+Let's see the different codes to write the main method.
+
+public static void main(String[] args)  
+public static void main(String []args)  
+public static void main(String args[])  
+3) You can provide var-args support to the main() method by passing 3 ellipses (dots)
+
+Let's see the simple code of using var-args in the main() method. We will learn about var-args later in the Java New Features chapter.
+
+public static void main(String... args)  
+4) Having a semicolon at the end of class is optional in Java.
+
+Let's see the simple code.
+
+class A{  
+static public void main(String... args){  
+System.out.println("hello java4");  
+}  
+};  
+Valid Java main() method signature
+public static void main(String[] args)  
+public static void main(String []args)  
+public static void main(String args[])  
+public static void main(String... args)  
+static public void main(String[] args)  
+public static final void main(String[] args)  
+final public static void main(String[] args)  
+final strictfp public static void main(String[] args)  
+Invalid Java main() method signature
+public void main(String[] args)  
+static void main(String[] args)  
+public void static main(String[] args)  
+abstract public static void main(String[] args)  
+Resolving an error "javac is not recognized as an internal or external command"?
+If there occurs a problem like displayed in the below figure, you need to set a path. Since DOS doesn't recognize javac and java as internal or external command.
+ To overcome this problem, we need to set a path. The path is not required in a case where you save your program inside the JDK/bin directory. However, it is an excellent approach to set the path. Click here for How to set path in java.
+
+how to resolve the problem of a hello world program in java
