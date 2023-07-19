@@ -1,10 +1,6 @@
 package com.hjy.response;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.PrintStream;
+import java.io.*;
 import java.net.Socket;
 
 import com.hjy.request.Request;
@@ -30,9 +26,9 @@ public class Response {
 
 	public void forward() throws FileNotFoundException {
 		// 响应(把服务器上有的资源用流传给客户端)
-		FileInputStream fis = null;
+		InputStream fis = null;
 		try {
-			fis = new FileInputStream(new File(path));
+			fis = this.getClass().getClassLoader().getResourceAsStream(path);
 			ps.println("HTTP/1.1 200 OK");
 			ps.println();
 			byte[] buf = new byte[1024];
@@ -67,12 +63,12 @@ public class Response {
 		 * url处理分3种情况 1.为空：返回默认资源 2.不空存在，返回该资源 3.不空不存在，返回错误信息
 		 */
 		if (url.equals("/")) {
-			path = "src/source/2.jpg";
+			path = "html/2.jpg";
 		} else {
-			path = "src/source" + url;
-			File file = new File(path);
-			if (!file.exists()) {
-				path = "src/source/error.html";
+			path = "html" + url;
+			InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream(path);
+			if (inputStream == null) {
+				path = "html/error.html";
 			}
 		}
 		try {

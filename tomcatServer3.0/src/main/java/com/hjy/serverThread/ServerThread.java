@@ -1,7 +1,5 @@
 package com.hjy.serverThread;
 
-import java.io.File;
-import java.io.IOException;
 import java.net.Socket;
 
 import com.hjy.request.Request;
