@@ -1,7 +1,7 @@
 # Java
 #hello
 
-##### [中文](README_ZH.md)
+
 
 ## Project Descriptions
 
