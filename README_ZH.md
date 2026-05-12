@@ -31,4 +31,4 @@
 
 
 ## 最后  
-如果帮助到你，请点击右上角 "star"，谢谢！
+如果帮助到你，请点击右上角 "star"，谢谢！This project demonstrates collaborative GitHub workflow using branches and pull requests.
